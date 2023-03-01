@@ -26,7 +26,7 @@ environment: {}
 options:
   server: "Your Service IP:Your Port"
 schema:
-  server: "match(^.+:\\d+$)"
+  server: "str?"
 services: []
 arch:
   - aarch64
