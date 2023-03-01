@@ -1,5 +1,5 @@
 name: Test-Proxy
-version: "0.0.0003"
+version: "0.0.0004"
 panel_icon: "mdi:microsoft-visual-studio-code"
 panel_title: Proxy_DEV
 slug: ha-custom-proxy
