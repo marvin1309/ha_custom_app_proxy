@@ -1,3 +1,3 @@
 upstream backend {
-    server {{ .server }};
+    server {{ .protocoll }}{{ .server }};
 }

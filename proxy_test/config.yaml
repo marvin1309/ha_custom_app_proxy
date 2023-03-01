@@ -25,8 +25,10 @@ full_access: false
 environment: {}
 options:
   server: "Your Service IP:Your Port"
+  protocoll: "http://"
 schema:
   server: "str?"
+  protocoll: "str?"
 services: []
 arch:
   - aarch64
