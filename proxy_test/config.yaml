@@ -2,7 +2,7 @@ name: Test-Proxy
 version: "1.3"
 panel_icon: "mdi:microsoft-visual-studio-code"
 panel_title: TEST-Proxy
-slug: frigate-proxy
+slug: test-proxy
 description: Proxy addon for Visual Stuido
 url: "https://github.com/blakeblackshear/frigate"
 startup: application
