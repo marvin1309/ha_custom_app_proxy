@@ -1,3 +1,4 @@
 upstream backend {
-    server {{ .protocoll }}{{ .server }};
+    set     $target "{{ .protocoll }}{{ .server }}";
+    server  $target;
 }
