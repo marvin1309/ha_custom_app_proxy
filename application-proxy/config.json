@@ -1,0 +1,38 @@
+{
+  "name": "Visual Studio Code",
+  "version": "0.3.0",
+  "slug": "visual_studio_code",
+  "description": "Proxy for externally running Visual Studio Code",
+  "url": "https://github.com/marvin1309/ha_custom_app_proxy/tree/master/visual_studio_code",
+  "arch": [
+    "aarch64",
+    "amd64",
+    "armhf",
+    "armv7",
+    "i386"
+  ],
+  "boot": "auto",
+  "init": true,
+  "true": true,
+  "ingress": true,
+  "timeout": 30,
+  "panel_icon": "mdi:microsoft-visual-studio-code",
+  "map": [
+    "config:ro"
+  ],
+  "ports": {
+    "8099/tcp": null
+  },
+  "ports_description": {
+    "8099/tcp": "Frontend tcp-listen port"
+  },
+  "options": {
+    "server": null,
+    "auth_token": ""
+  },
+  "schema": {
+    "server": "url",
+    "auth_token": "str?"
+  },
+  "image": "ha_custom_app_proxy/application-proxy-{arch}"
+}
