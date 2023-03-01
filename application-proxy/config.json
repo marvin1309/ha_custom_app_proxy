@@ -1,6 +1,6 @@
 {
   "name": "Visual Studio Code",
-  "version": "0.3.0",
+  "version": "0.2.0",
   "slug": "visual_studio_code",
   "description": "Proxy for externally running Visual Studio Code",
   "url": "https://github.com/marvin1309/ha_custom_app_proxy/tree/master/visual_studio_code",
