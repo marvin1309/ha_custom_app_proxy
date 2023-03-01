@@ -1,10 +1,10 @@
 name: Test-Proxy
-version: "1.3"
+version: "0.0.0001"
 panel_icon: "mdi:microsoft-visual-studio-code"
-panel_title: TEST-Proxy
-slug: test-proxy
-description: Proxy addon for Visual Stuido
-url: "https://github.com/blakeblackshear/frigate"
+panel_title: Proxy_DEV
+slug: ha-custom-proxy
+description: Proxy Addon to Add Custom Applications to Homeassistant
+url: "https://github.com/marvin1309/ha_custom_app_proxy"
 startup: application
 boot: auto
 webui: "http://[HOST]:[PORT:5010]/"
@@ -24,7 +24,7 @@ tmpfs: false
 full_access: false
 environment: {}
 options:
-  server: "frigate.local:5010"
+  server: "Your Service IP:Your Port"
 schema:
   server: "match(^.+:\\d+$)"
 services: []
